@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-image: linear-gradient(to bottom, #061a45 1%, #0a0726 0%,#061a45 55%) ;
+  border-radius: 20px;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+  transition: 1s;
+}
+#textoinicial{
+  margin-top: 40px;
+  text-align: left;
+  margin-left: 20px;
+}
+summary{
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: yellow;
+}
+.jpimagem{
+  width: 18rem;
+  margin-left: 98rem;
+  position: relative;
+  margin-top: -180px;
+  border-style: inset;
+  border-radius: 200px;
+  padding: 0px;
+  border-collapse: collapse;
+  border-width: 3px;
+}
+.content{
+  transition: 1s;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+ cursor: pointer;
+  font-size: 26px;
+}
+
+.certificacoes{
+  color: white;
+    text-align: center;
+    margin-top: 5px;
+    padding: 0px;
+    margin-bottom: -25px;
+    font-size: 2rem;
+}
+.project{
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+  padding: 0px;
+  margin-bottom: -78px;
+  z-index: 1;
+  position: relative;
+  bottom: -50px;
+  font-size: 2rem;
+}
+
+#projetos{
+  transition: 1s;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.projetos .card .image{
+  height: 180px;
+  width: 170px;
+  border-radius: 50%;
+  padding: 3px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.projetos .card .image img{
+  height: 11rem;
+  width: 14rem;
+  border-radius: 10%;
+  border: 1px solid #fff;
+}
+#about{
+  margin-top: 20px;
+    transition: all 0s ease 0s;
+    width: 70%;
+    font-size: 23px;
+    text-align: center;
+    justify-content: center;
+    color: bisque;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    border-radius: 1px white;
+  }
+  .descricao{
+  color:azure;
+  width: 400px;
+}
+.header{
+  color: rgb(145, 139, 150);
+}
+.header:hover{
+  color: white;
+  transition: 1s;
+} 
+#imagem-principal{
+  width: 70%;
+  display: flex;
+  margin-top: 8rem;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  margin-left: 20%;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  padding: 0%;
+  margin-top: 6rem;
+}
+.carde{
+  width: 100%;
+  background-color: white;
+  color: white;
+  height: 11rem;
+  background: linear-gradient(to top, #110338 0%, #0c023ea3 100%);;
+  padding: 2rem 1.5rem;
+  border-radius: 1rem;
+  transition: box-shadow .3s ease, transform .2s ease;
+  margin-top: 20%;
+  margin-bottom: 20px;
+  text-align: center;
+ }
+ .card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform .2s ease, opacity .2s ease;
+}
+/*Image*/
+.card-avatar-image {
+  --size: 60px;
+  background: linear-gradient(to top, #f1e1c1 0%, #fcbc97 100%);
+  background-image: url("https://i.ibb.co/2sQwZsC/foto-joao-60x60.png");
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  transition: transform .2s ease;
+  margin-bottom: 1rem;
+}
+ /*Card footer*/
+ .card-social {
+  transform: translateY(200%);
+  display: flex;
+  justify-content: space-around;
+  opacity: 0;
+  transition: transform .2s ease, opacity .2s ease;
+ }
+
+ .card-social__item {
+  list-style: none;
+}
+
+.card-social__item svg {
+  height: 30px;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  fill: #c4c7c7;
+  cursor: pointer;
+  transition: fill 0.2s ease ,transform 0.2s ease;
+ }
+ /*Text*/
+ .card-title {
+  color: rgb(196, 195, 195);
+  font-size: 1.6em;
+  font-style: bold;
+  font-weight: 700;
+  line-height: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .card-subtitle,.card-subtitle-developer {
+  color: #eeff00;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+ }
+
+ /*Hover*/
+ .carde:hover {
+  box-shadow: 0 8px 50px #ffffff33;
+ }
+
+ .carde:hover .card-info {
+  transform: translateY(-5%);
+ }
+
+ .carde:hover .card-social {
+  transform: translateY(100%);
+  opacity: 1;
+ }
+
+ .card-social__item svg:hover {
+  fill: #b47474;
+  transform: scale(1.1);
+ }
+
+ .card-avatar-image:hover {
+  transform: scale(1.1);
+ }
+.quizz-logo > img {
+  width: 100%;
+  margin: 0%;
+}
+a,link{
+  padding: 0;
+  margin: 0%;
+  width: 0;
+  display: contents;
+}
+section{
+  position: relative;  
+  height: 500px;
+  width: 100%;
+  display: flex;
+  transition: 1s;
+  align-items: center;
+  background-color: #0a0726;
+  border-radius: 20px;
+}
+.projetos{
+  position: relative;  
+  height: 500px;
+  width: 100%;
+  display: flex;
+  transition: 1s;
+  align-items: center;
+  background-color: #0a0726;
+  border-radius: 20px;
+}
+#projetos{
+  margin-top: 3%;
+}
+
+.swiper{
+  width: 950px;
+}
+
+.card{
+  position: relative;
+  background: #ffffff58;
+  border-radius: 20px;
+  margin-left: 200px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 20px 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card::before{
+  content: "";
+  position: absolute;
+  height: 40%;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.card .card-content{
+  display: flex;
+  flex-direction: column;
+  height: 18rem;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+  z-index: 100;
+}
+.card .card-conteudo{
+  display: flex;
+  flex-direction: column;
+  height: 18rem;;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+  z-index: 100;
+  color: #424444;
+}
+.card .card-conteudo:hover{
+  color: #512020;
+  background-color: #061a45;
+  transition: 1s;
+  padding: 30px;
+  animation-delay: 1s;
+  border-radius: 20px;
+}
+
+section .card .image{
+  height: 180px;
+  width: 170px;
+  border-radius: 50%;
+  padding: 3px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+section .card .image img{
+  height: 11rem;
+  width: 14rem;
+  border-radius: 10%;
+}
+
+.card .media-icons{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card .media-icons i{
+  color: #fff;
+  opacity: 0.6;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card .media-icons i:hover{
+  opacity: 1;
+}
+
+.name-profession, .name {
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+
+.card .button{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.card .button button{
+  background: #7d2ae8;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 8px 22px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.button button:hover{
+  background: #6616d0;
+}
+
+.swiper-pagination{
+  position: absolute;
+}
+
+.swiper-pagination-bullet{
+  height: 20px;
+  width: 20px;
+  border-radius: -1px;
+  background: #ffea00;
+}
+
+.swiper-button-next, .swiper-button-prev{
+  opacity: 0.7;
+  color: #7d2ae8;
+  transition: all 0.3s ease;
+}
+.swiper-button-next:hover, .swiper-button-prev:hover{
+  opacity: 1;
+  color: #7d2ae8;
+}
