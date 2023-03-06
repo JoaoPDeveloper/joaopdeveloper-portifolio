@@ -5,10 +5,11 @@
 }
 
 body{
-  background-image: linear-gradient(to bottom, #061a45 1%, #0a0726 0%,#061a45 55%) ;
+  background-color: #061a45;
   border-radius: 20px;
   align-items: center;
   margin-top: 20px;
+  scrollbar-shadow-color: #110338;
   justify-content: center;
   transition: 1s;
 }
@@ -114,14 +115,14 @@ summary{
 } 
 #imagem-principal{
   width: 20%;
-  display: flex;
-  margin-top: 5rem;
-  align-items: center;
-  position: relative;
-  justify-content: center;
-  margin-left: 10%;
-  bottom: -75px;
-  z-index: 1;
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-bottom: -2.9rem;
+    z-index: 1;
+    position: relative;
 }
 footer{
   display: flex;
@@ -136,9 +137,10 @@ footer{
 }
 .imagemfooter{
   position: relative;
-  width: 15%;
+  width: 25%;
   margin-left: 75%;
   cursor:default;
+  margin-bottom: 5.2rem;
 }
 .carde{
   width: 100%;
@@ -260,6 +262,7 @@ section{
   transition: 1s;
   align-items: center;
   background-color: #0a0726;
+  border: 20px white;
   border-radius: 20px;
 }
 #projetos{
@@ -452,4 +455,27 @@ section img:hover{
     display: flex;
     align-items: center;
   }
+}
+/* width */
+::-webkit-scrollbar {
+  width: 0.9rem;
+  height: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #090828; 
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  transition: 1s;
+  background: rgba(255, 0, 0, 0.349); 
+  border: 3px solid grey;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(116, 5, 5); 
 }
