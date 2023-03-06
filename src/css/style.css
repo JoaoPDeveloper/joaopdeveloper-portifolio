@@ -311,14 +311,17 @@ section{
   z-index: 100;
   color: #424444;
 }
-.card .card-conteudo:hover{
+.card-conteudo:hover{
   color: #512020;
   background-color: #061a45;
-  transition: 0.5s;
+  transition: 0.1s;
   opacity: 1;
   padding: 30px;
   animation-delay: 1s;
   border-radius: 20px;
+}
+.card-conteudo:not(:hover){
+  opacity: 0.7;
 }
 
 section .card .image{
@@ -343,6 +346,14 @@ section img:hover{
   -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1); 
+}
+.card-content:not(:hover){
+  opacity: 0.6;
+  transition: 1s;
+}
+.name-profession .name:not(:hover){
+  opacity: 1;
+  color: yellow;
 }
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -385,6 +396,7 @@ section img:hover{
   text-align: center;
   margin-top: 20px;
   color: white;
+  opacity: 1;
 }
 
 .card .button{
