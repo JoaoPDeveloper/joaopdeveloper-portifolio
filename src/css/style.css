@@ -15,9 +15,9 @@ body{
 #textoinicial{
   margin-top: 10%;
   text-align: left;
-  margin-left: 60%;
-  width: 340px;
-  bottom: -50px;
+  margin-left: 135%;
+  width: 380px;
+  bottom: -70px;
   position: relative;
 }
 summary{
@@ -28,16 +28,15 @@ summary{
 }
 .jpimagem{
   width: 18rem;
-  margin-left: 55rem;
+  margin-left: 60rem;
   position: relative;
-  margin-top: -232px;
+  margin-top: -215px;
   border-style: inset;
-  border-radius: 200px;
   padding: 0px;
-  border-collapse: collapse;
-  border-color: #a202ff #4a6565 #ffea00 rgb(255, 0, 0);
-  border-width: 3px;
-  margin-bottom: 15%;
+  background-color: #302244;
+  border: 4px solid hsl(0, 100%, 50%);
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
 }
 .content{
   transition: 1s;
@@ -479,27 +478,26 @@ body::-webkit-scrollbar-thumb {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(116, 5, 5); 
 }
-@media screen and (max-width:
+@media only screen and (max-width:
 1000px) {
   *{
     width: 100%;
   }
   .jpimagem{
-    width: 13rem;
-    border-style: inset;
-    border-radius: 200px;
-    padding: 0px;
-    margin-left: 100%;
-    border-collapse: collapse;
-    border-width: 3px;
-    align-items: center;
-    margin-bottom: 150px;
-    display: flex;
+     width: 16rem;
+    margin-left: 10rem;
     position: relative;
+    margin-top: -215px;
+    border-style: inset;
+    padding: 0px;
+    background-color: #302244;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
 }
 .card .card-conteudo{
-  width: 80%;
-  height: 19rem;
+  width: 90%;
+  height: 15rem;
   margin-top: 18%;
 }
 .card .card-content > img{
@@ -508,22 +506,25 @@ body::-webkit-scrollbar-thumb {
 .card .card-conteudo:hover{
   color: #512020;
   background-color: #061a45;
-  transition: 0.1s;
+  transition: 1s;
   opacity: 1;
-  padding: 30px;
-  width: 100%;
-  margin-top: 1px;
+  position: relative;
+  padding: 35px;
+  margin: 0%;
   animation-delay: 1s;
   border-radius: 20px;
+  width: 100%;
 }
 .project{
   width: 100%;
-  margin-bottom: -25px;
+  margin: 0;
+  bottom: -95px;
+  position: relative;
 }
 #imagem-principal{
   width: 25%;
   position: relative;
-  margin-bottom: -8%;
+  margin-bottom: -9%;
 }
 section .card .image img {
   height: 9rem;
@@ -555,28 +556,30 @@ section .card .card-content img{
   display: flex;
 }
 
-@media screen and (max-width:
-700px){
-  .projetos{
-    width: 100%;
-    align-content: center;
-  }
+@media only screen and (max-width:
+770px){
   #textoinicial{
     margin-top: 10%;
-    text-align: -webkit-center;
-    margin-left: 35%;
-    width: 109%;
-    bottom: -59px;
+    text-align: left;
+    margin-left: 100%;
+    width: 340px;
+    bottom: -61px;
     position: relative;
+    font-size: 28px;
   }
   .jpimagem{
-    margin-bottom: 75px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-top: 9%;
+    width: 14rem;
+    margin-left: 6rem;
     position: relative;
-    margin-left: 19px;
+    top: 50px;
+    border-collapse: collapse;
+    margin-bottom: 15%;
+    border-style: inset;
+    padding: 0px;
+    background-color: #302244;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
   }
   .content::marker{
     color: rgb(242, 255, 0);
@@ -584,7 +587,7 @@ section .card .card-content img{
   }
   section .card .image img {
     height: 9rem;
-    width: 80%;
+    width: 75%;
     display: flex;
     justify-content: center;
     margin-top: -32px;
@@ -594,7 +597,7 @@ section .card .image {
   width: 135%;
 }
 .card .card-conteudo{
-  width: 100%;
+  width: 85%;
 }
 .name-profession, .name {
   font-size: 16px;
@@ -612,23 +615,26 @@ summary{
   color: yellow;
 }
 .carde{
-  width: 130%;
+  width: 100%;
   height: 130%;
 }
 .imagemfooter{
-  top: -20px;
+  top: -10px;
+  margin-bottom: 130px;
 }
 footer{
-  width: 107%;
+  width:100%;
+  height: 150px;
 }
 .content {
   transition: 1s;
+  width: 100%;
   text-align: center;
   color: rgb(255, 255, 255);
   margin-top: 20px;
   cursor: pointer;
   margin-left: 45px;
-  font-size: 26px;
+  font-size: 22px;
 }
 .card > .projetos{
   position: relative;
