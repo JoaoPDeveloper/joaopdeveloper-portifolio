@@ -491,6 +491,49 @@ body::-webkit-scrollbar-thumb {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(116, 5, 5); 
 }
+@media screen and (min-width:2590px
+){
+  #textoinicial{
+    margin-top: 40%;
+    text-align: left;
+    margin-left: 139%;
+    width: 447px;
+    bottom: 50px;
+    position: relative;
+  }
+  .jpimagem{
+    width: 18rem;
+    margin-left: 90rem;
+    position: relative;
+    margin-top: -229px;
+    padding: 0px;
+    bottom: 48px;
+  }
+  .spinner {
+    width: 13.5em;
+    height: 13.5em;
+    position: absolute;
+    cursor: not-allowed;
+    border-radius: 50%;
+    border: 2px solid #444;
+    box-shadow: -10px -10px 10px #6359f8, 0px -10px 10px 0px #9c32e2, 10px -10px 10px #f36896, 10px 0 10px #ff0b0b, 10px 10px 10px 0px#ff5500, 0 10px 10px 0px #ff9500, -10px 10px 10px 0px #ffb700;
+    animation: rot55 3s linear infinite;
+    margin-left: 92.5rem;
+    top: 85px;
+    z-index: 1;
+  }
+  #imagem-principal{
+    width: 17%;
+    margin-top: -9rem;
+    top: 68px;
+    position: relative;
+  }
+  #about{
+    text-align: center;
+    position: relative;
+    right: 100px;
+  }
+}
 @media only screen and (max-width:
 1025px) {
   *{
