@@ -58,6 +58,7 @@ summary{
   margin-top: 20px;
  cursor: pointer;
   font-size: 26px;
+  margin-left: 200px;
 }
 .certificacoes{
   color: white;
@@ -75,7 +76,7 @@ summary{
   margin-bottom: -78px;
   z-index: 1;
   position: relative;
-  bottom: -50px;
+  bottom: 195px;
   font-size: 2rem;
 }
 
@@ -150,6 +151,38 @@ footer{
   cursor:default;
   margin-bottom: 1.3rem;
 }
+.arrowgif{
+  width: 10%;
+  color: blue;
+  bottom: -3px;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  right: -71.5%;
+  transform: rotate(89deg);
+}
+.path { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: dash 2.5s linear forwards; animation-iteration-count: 1; z-index: 1;animation-delay: 1s;}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+  to{
+    opacity: 1;
+    transition: 1s;
+  }
+}
+.dashed{
+  stroke-dasharray: 5,12;
+}
+#arrow{animation: arrow 3s linear forwards; opacity:0;}
+@keyframes arrow {
+  to {
+    opacity: 1;
+    transition: 1s;
+  }
+}
+.ifrm{border:none; width:100%;margin-top:50px;}
+
 .carde{
   width: 100%;
   background-color: white;
@@ -274,13 +307,12 @@ section{
   border-radius: 20px;
 }
 #projetos{
-  margin-top: 3%;
+  margin-top: -10%;
 }
-
-.swiper{
-  width: 950px;
+.swiper {
+  width: 1500px;
+  z-index:0;
 }
-
 .card{
   position: relative;
   background: #ffffff58;
@@ -306,14 +338,14 @@ section{
   flex-direction: column;
   height: 18rem;
   align-items: center;
-  padding: 30px;
+  padding: 10px;
   position: relative;
   z-index: 100;
 }
 .card .card-conteudo{
   display: flex;
   flex-direction: column;
-  height: 18rem;;
+  height: 19rem;
   align-items: center;
   padding: 30px;
   position: relative;
@@ -327,7 +359,7 @@ section{
   background-color: #061a45;
   transition: 0.1s;
   opacity: 1;
-  padding: 5px;
+  padding: 10px;
   animation-delay: 1s;
   border-radius: 20px;
   width: 100%;
@@ -449,13 +481,13 @@ section img:hover{
 }
 
 .swiper-button-next, .swiper-button-prev{
-  opacity: 0.7;
-  color: #7d2ae8;
+  opacity: 1;
+  color: #4c85c9;
   transition: all 0.3s ease;
 }
 .swiper-button-next:hover, .swiper-button-prev:hover{
   opacity: 1;
-  color: #7d2ae8;
+  color: #0bf37f;
 }
 
 @media (max-width: 450px){
@@ -491,19 +523,19 @@ body::-webkit-scrollbar-thumb {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(116, 5, 5); 
 }
-@media screen and (min-width:2590px
+@media screen and (min-width:2550px
 ){
   #textoinicial{
     margin-top: 40%;
     text-align: left;
-    margin-left: 139%;
+    margin-left: 185%;
     width: 447px;
     bottom: 50px;
     position: relative;
   }
   .jpimagem{
     width: 18rem;
-    margin-left: 90rem;
+    margin-left: 110rem;
     position: relative;
     margin-top: -229px;
     padding: 0px;
@@ -518,7 +550,7 @@ body::-webkit-scrollbar-thumb {
     border: 2px solid #444;
     box-shadow: -10px -10px 10px #6359f8, 0px -10px 10px 0px #9c32e2, 10px -10px 10px #f36896, 10px 0 10px #ff0b0b, 10px 10px 10px 0px#ff5500, 0 10px 10px 0px #ff9500, -10px 10px 10px 0px #ffb700;
     animation: rot55 3s linear infinite;
-    margin-left: 92.5rem;
+    margin-left: 112rem;
     top: 85px;
     z-index: 1;
   }
